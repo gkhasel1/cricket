@@ -16,8 +16,7 @@ A Metrics Server written in Go, running on Elasticsearch.
 
 Example:
 ```
-$ curl -X POST -H 'Content-Type: application/json' -d
-'[
+$ curl -X POST -H 'Content-Type: application/json' -d '[
 	{
 		"name": "c1",
 		"type": "counter",
@@ -30,8 +29,7 @@ $ curl -X POST -H 'Content-Type: application/json' -d
 		"value": 4.7,
 		"timestamp": "2016-12-31T22:49:50Z"
 	}
-]'
-http://localhost:8080/v1/metrics
+]' http://localhost:8080/v1/metrics
 ```
 Timestamps passed to the metrics server should follow `RFC3339` standards.
 

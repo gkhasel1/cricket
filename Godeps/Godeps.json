@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/gkhasel1/cricket",
+	"ImportPath": "github.com/donomead/cricket",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Deps": [

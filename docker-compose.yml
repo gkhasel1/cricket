@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  cricket:
-    build:
-      context: .
-    ports:
-      - "8080:8080"
+  # cricket:
+  #   build:
+  #     context: .
+  #   ports:
+  #     - "8080:8080"
 
   elasticsearch:
     image: elasticsearch

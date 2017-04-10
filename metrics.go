@@ -4,7 +4,6 @@ import (
 	"time"
 	"context"
 	"encoding/json"
-	"log"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 	uuid "github.com/google/uuid"
@@ -144,8 +143,6 @@ func GetStats(name string, start string, end string) (Stat, error) {
 			if err != nil {
 				return stat , err
 			}
-
-			log.Println(metric)
 
 			if metric.Value > stat.Max {
 				stat.Max = metric.Value

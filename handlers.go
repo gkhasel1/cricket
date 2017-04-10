@@ -7,7 +7,7 @@ import (
 )
 
 func IndexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "DEADMOON -- metrics server\nwritten by GK")
+	fmt.Fprint(w, "DEADMOON\na metrics server written in go, backed by elasticseach\n")
 }
 
 func HealthHandler(w http.ResponseWriter, r *http.Request) {

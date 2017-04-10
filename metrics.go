@@ -108,7 +108,7 @@ func GetMetrics(name string, timeStr string) (Metrics, error) {
 		Query(boolQuery).
 		Sort("timestamp", true).
 		Pretty(true).
-		From(0).Size(9999). // Limit the dataset for safety
+		From(0).Size(9999). // For safety, should use paginatation instead
 		Do(ctx)
 	if err != nil {
 		return metrics , err
@@ -170,7 +170,7 @@ func GetStats(name string, start string, end string) (Stat, error) {
 		Query(boolQuery).
 		Sort("timestamp", true).
 		Pretty(true).
-		From(0).Size(9999). // For safety
+		From(0).Size(9999). // For safety, should use paginatation instead
 		Do(ctx)
 	if err != nil {
 		return stat , err

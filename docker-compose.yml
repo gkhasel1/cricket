@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  deadmoon:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+
+  elasticsearch:
+    image: elasticsearch
+    volumes:
+      - ./etc/data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+      - "9300:9300"

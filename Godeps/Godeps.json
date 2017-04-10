@@ -1,0 +1,35 @@
+{
+	"ImportPath": "github.com/gkhasel1/deadmoon",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/google/uuid",
+			"Comment": "0.2-3-g6a5e285",
+			"Rev": "6a5e28554805e78ea6141142aba763936c4761c0"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.3.0-5-g599cba5",
+			"Rev": "599cba5e7b6137d46ddf58fb1765f5d928e69604"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "d1e1b351919c6738fdeb9893d5c998b161464f0c"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context/ctxhttp",
+			"Rev": "d1e1b351919c6738fdeb9893d5c998b161464f0c"
+		},
+		{
+			"ImportPath": "gopkg.in/olivere/elastic.v5",
+			"Comment": "v5.0.31",
+			"Rev": "cf4e58efdcee2e8e7c18dad44d51ed166fb256c2"
+		},
+		{
+			"ImportPath": "gopkg.in/olivere/elastic.v5/uritemplates",
+			"Comment": "v5.0.31",
+			"Rev": "cf4e58efdcee2e8e7c18dad44d51ed166fb256c2"
+		}
+	]
+}

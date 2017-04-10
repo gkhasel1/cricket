@@ -155,3 +155,7 @@ that streams to stdout and looks like
 2017/04/10 05:36:54 POST	/v1/metrics	            PostMetrics	105.681µs
 2017/04/10 05:37:12 GET	    /v1/metrics?name=c1		GetMetrics	15.085372ms
 ```
+
+## Testing
+
+You can run the test suite by executing `go test` from the root directory.

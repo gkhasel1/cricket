@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/donomead/deadmoon",
+	"ImportPath": "github.com/gkhasel1/cricket",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Deps": [

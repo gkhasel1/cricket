@@ -1,4 +1,4 @@
-# DEADMOON
+# CRICKET
 
 A Metrics Server written in Go, running on Elasticsearch.
 
@@ -126,7 +126,7 @@ export PATH=$PATH:$GOPATH/bin
 ```
 You might want to put these in your `.profile` etc.
 
-[4] clone this repository into `~/go/src/github.com/donomead/deadmoon`
+[4] clone this repository into `~/go/src/github.com/donomead/cricket`
 
 [5] install `godep` using `go get github.com/tools/godep` then get dependencies
 ```
@@ -141,12 +141,12 @@ go install
 [7] setup the db
 ```
 docker-compose up -d elasticsearch
-deadmoon --init
+cricket --init
 ```
 
 [8] run the application from binary
 ```
-deadmoon
+cricket
 ```
 
 for convenience, this applicaiton has a request log

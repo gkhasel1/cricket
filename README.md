@@ -75,6 +75,9 @@ In the example above, there were 3 c1 records written with a timestamp in 1990. 
 
 ## DESIGN DECISIONS
 
+I am neither a Go programmer nor an Elaticsearch expert, but I thought it would be fun and challenging
+to learn something new while doing this project.
+
 Go seemed like a suitable language for this project given its performance characteristics and ease of parallelization
 via go routines. Ultimately, this project doesn't take advantage of routines, but its an easy optimization to
 make in the future.
@@ -113,7 +116,7 @@ go/
 ├── pkg/
 └── src/
     └── github.com/
-    	└── gkhasel1/
+    	└── donomead/
 ```
 
 [3] Setup your environment variables for the go toolchain
@@ -123,7 +126,7 @@ export PATH=$PATH:$GOPATH/bin
 ```
 You might want to put these in your `.profile` etc.
 
-[4] clone this repository into `~/go/src/github.com/gkhasel1/deadmoon`
+[4] clone this repository into `~/go/src/github.com/donomead/deadmoon`
 
 [5] install `godep` using `go get github.com/tools/godep` then get dependencies
 ```
@@ -154,5 +157,3 @@ that streams to stdout and looks like
 2017/04/10 05:36:54 POST	/v1/metrics	            PostMetrics	105.681µs
 2017/04/10 05:37:12 GET	    /v1/metrics?name=c1		GetMetrics	15.085372ms
 ```
-
-

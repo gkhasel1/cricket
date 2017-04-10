@@ -1,12 +1,12 @@
 FROM golang
 
-MAINTAINER Gabriel Khaselev <gkhasel1@gmail.com>
+MAINTAINER Don Omead <donomead@gmail.com>
 
 RUN go get github.com/tools/godep
 
-ADD . /go/src/github.com/gkhasel1/deadmoon
+ADD . /go/src/github.com/donomead/deadmoon
 
-WORKDIR /go/src/github.com/gkhasel1/deadmoon
+WORKDIR /go/src/github.com/donomead/deadmoon
 
 RUN godep get
 

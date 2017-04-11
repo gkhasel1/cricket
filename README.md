@@ -114,7 +114,7 @@ go/
 ├── pkg/
 └── src/
     └── github.com/
-    	└── donomead/
+    	└── gkhasel1/
 ```
 
 [3] Setup your environment variables for the go toolchain
@@ -124,7 +124,7 @@ export PATH=$PATH:$GOPATH/bin
 ```
 You might want to put these in your `.profile` etc.
 
-[4] clone this repository into `~/go/src/github.com/donomead/cricket`
+[4] clone this repository into `~/go/src/github.com/gkhasel1/cricket`
 
 [5] install `godep` using `go get github.com/tools/godep` then get dependencies
 ```

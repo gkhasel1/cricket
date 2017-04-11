@@ -1,12 +1,12 @@
 FROM golang
 
-MAINTAINER Don Omead <donomead@gmail.com>
+MAINTAINER Gabriel Khaselev <gkhasel1@gmail.com>
 
 RUN go get github.com/tools/godep
 
-ADD . /go/src/github.com/donomead/cricket
+ADD . /go/src/github.com/gkhasel1/cricket
 
-WORKDIR /go/src/github.com/donomead/cricket
+WORKDIR /go/src/github.com/gkhasel1/cricket
 
 RUN godep get
 

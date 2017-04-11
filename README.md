@@ -151,9 +151,9 @@ for convenience, this applicaiton has a request log
 that streams to stdout and looks like
 
 ```
-2017/04/10 05:36:32 POST	/v1/metrics	            PostMetrics	32.575µs
-2017/04/10 05:36:54 POST	/v1/metrics	            PostMetrics	105.681µs
-2017/04/10 05:37:12 GET	    /v1/metrics?name=c1		GetMetrics	15.085372ms
+2017/04/10 05:36:32 POST	/v1/metrics	            PostMetrics		32.575µs
+2017/04/10 05:36:54 POST	/v1/metrics	            PostMetrics		105.681µs
+2017/04/10 05:37:12 GET	    /v1/metrics?name=c1		GetMetrics		15.085372ms
 ```
 
 ## Testing
